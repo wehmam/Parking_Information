@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('konsumen','KonsumenController');
+Route::resource('transaksi','TransaksiController');
